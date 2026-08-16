@@ -1,5 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router'
+
+//This is the page that I imported from the pages folder
 import Home from './pages/Home'
 import Doctor from './pages/Doctor'
 import About from './pages/About'
