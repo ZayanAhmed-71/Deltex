@@ -15,7 +15,7 @@ const SpecialityMenu = () => {
                     key={index}
                     to={`/doctors/${item.speciality}`}
                     onClick={() => scrollTo(0, 0)}
-                    className='flex flex-col items-center text-xs sm:text-sm flex-shrink-0 cursor-pointer hover:-translate-y-2 transition-all duration-300'
+                    className='flex flex-col items-center text-xs sm:text-sm shrink-0 cursor-pointer hover:-translate-y-2 transition-all duration-300'
                 >
                     <img className='w-14 sm:w-16 mb-2' src={item.image} alt="" />
                     <p>{item.speciality}</p>
