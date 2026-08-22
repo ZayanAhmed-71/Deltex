@@ -11,6 +11,7 @@ import MyAppoinment from './pages/MyAppoinments'
 import MyProfile from './pages/MyProfile'
 import Appoinment from './pages/Appoinment'
 import Navber from './Component/Navber'
+import Footer from './Component/Footer'
 
 
 
@@ -34,6 +35,7 @@ const App = () => {
 
       </Routes>
 
+    <Footer/>
     </div>
   )
 }
